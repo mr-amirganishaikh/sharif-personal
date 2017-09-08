@@ -452,5 +452,96 @@ footer .footer.fixed {
   font-weight: 6500; }
 #about-me .footer-section .external-link a {
   margin-bottom: 6px; }
+#about-me .footer-section .stats {
+  margin: 30px 0px 0px; }
+  #about-me .footer-section .stats .stats-box {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    min-height: 120px; }
+    #about-me .footer-section .stats .stats-box:before, #about-me .footer-section .stats .stats-box:after {
+      content: '';
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0; }
+    #about-me .footer-section .stats .stats-box:before {
+      left: 0px;
+      border-top: 1px solid #eee;
+      border-left: 1px solid #eee; }
+    #about-me .footer-section .stats .stats-box:after {
+      right: 0px;
+      border-top: 1px solid #eee;
+      border-right: 1px solid #eee; }
+    #about-me .footer-section .stats .stats-box .stats-counter {
+      float: left;
+      width: 100%; }
+      #about-me .footer-section .stats .stats-box .stats-counter:before, #about-me .footer-section .stats .stats-box .stats-counter:after {
+        content: '';
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom: 0; }
+      #about-me .footer-section .stats .stats-box .stats-counter:before {
+        left: 0px;
+        border-bottom: 1px solid #e6e6e6;
+        border-left: 1px solid #e6e6e6; }
+      #about-me .footer-section .stats .stats-box .stats-counter:after {
+        right: 0px;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6; }
+      #about-me .footer-section .stats .stats-box .stats-counter .stats-number {
+        float: left;
+        width: 100%;
+        font-size: 3rem;
+        color: #2E2E2E;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 20px;
+        letter-spacing: 5px;
+        margin: 0px;
+        margin-bottom: 5px; }
+        #about-me .footer-section .stats .stats-box .stats-counter .stats-number:before {
+          content: '';
+          position: absolute;
+          top: 10px;
+          bottom: 10px;
+          left: 10px;
+          right: 10px;
+          z-index: -1;
+          background: #f2f2f2; }
+      #about-me .footer-section .stats .stats-box .stats-counter .stats-label {
+        font-size: 0.8rem;
+        font-family: "Raleway", sans-serif;
+        font-style: italic;
+        color: #666;
+        font-weight: normal;
+        letter-spacing: 1px; }
+
+/* Testimonial */
+#my-testimonial .body-section #carouselTestimonial .carousel-inner {
+  width: 90%;
+  margin: 0 auto; }
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .item {
+    transition-property: opacity; }
+    #my-testimonial .body-section #carouselTestimonial .carousel-inner .item .testimonial-box {
+      padding: 30px;
+      background: #f2f2f2; }
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .item,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .active.left,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .active.right {
+    opacity: 0; }
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .active,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .next.left,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .prev.right {
+    opacity: 1; }
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .next,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .prev,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .active.left,
+  #my-testimonial .body-section #carouselTestimonial .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0); }
 
 /*# sourceMappingURL=style.css.map */

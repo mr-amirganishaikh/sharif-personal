@@ -8,30 +8,36 @@
     <div class="body-section">
         <div class="view">
             <div id="carouselTestimonial" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselTestimonial" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselTestimonial" data-slide-to="1"></li>
-                </ol>
-
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="http://webredox.net/demo/wp/cooper/demo1/wp-content/uploads/2017/01/5.jpg" alt="Los Angeles">
+                        <div class="testimonial-box">
+                            <h3 class="testimonial-author">Amir Shaikh</h3>
+                            <p class="testimonial-text">
+                                &ldquo; Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. &rdquo;
+                            </p>
+                            <strong class="testimonial-source">Via Facebook</strong>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="http://webredox.net/demo/wp/cooper/demo1/wp-content/uploads/2017/01/5.jpg" alt="Chicago">
+                        <div class="testimonial-box">
+                            <h3 class="testimonial-author">Amir Shaikh</h3>
+                            <p class="testimonial-text">
+                                &ldquo; Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. &rdquo;
+                            </p>
+                            <strong class="testimonial-source">Via Facebook</strong>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Left and right controls -->
-                <a class="left carousel-control" href="#carouselTestimonial" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
+                <a class="left custom-carousel-control" href="#carouselTestimonial" data-slide="prev">
+                    <span class="fa fa-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#carouselTestimonial" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="fa fa-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
